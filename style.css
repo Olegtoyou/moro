@@ -1,0 +1,92 @@
+* {
+    box-sizing: border-box;
+}
+
+html,
+body {
+    height: 100%;
+}
+
+body {
+    font-family: 'Fredoka One', cursive;
+    font-family: 'Hind Madurai', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    background: rgba(242, 206, 218, 0.3);
+}
+
+ul>li {
+    list-style: none;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+.wrapper {
+    min-height: 100%;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0;
+}
+
+
+
+.hero {}
+
+.container {
+    max-width: 1600px;
+    margin: 0px auto;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 6px;
+    padding: 25px 0px;
+}
+
+.logo__img {}
+
+.nav {}
+
+.nav__list {
+    display: flex;
+}
+
+.nav__item {}
+
+.nav__link {}
+
+.btm {}
+
+.hero__content {}
+
+.hero__main {}
+
+.hero__headline {}
+
+.title {}
+
+.hero__title {}
+
+.hero__desc {}
+
+.a {
+    height: 597px;
+    width: 597px;
+    display: flex;
+    align-items: ;
+    justify-content: ;
+}
