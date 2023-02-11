@@ -5,66 +5,106 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Fredoka+One&family=Hind+Madurai:wght@400;500;600;700&family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Fredoka+One&family=Hind+Madurai:wght@400;500;600;700&family=Roboto:wght@400;500;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="CSS/normalize.css">
+    <link rel="stylesheet" href="CSS/style.css">
+    <title>Icecream</title>
 </head>
 
-<div class="wrapper">
-    <section class="hero">
-        <div class="container">
-            <header class="header">
-                <img src="content/иконка.jpg" alt="иконка" class="logo__img">
-                <nav class="nav">
-                    <ul class="nav__list">
-                        <li class="nav__item">
-                            <a href="#!" class="nav__link">Home</a>
-                        </li>
-                        <li class="nav__item">
-                            <a href="#!" class="nav__link">Product</a>
-                        </li>
-                        <li class="nav__item">
-                            <a href="#!" class="nav__link">Pricing</a>
-                        </li>
-                        <li class="nav__item">
-                            <a href="#!" class="nav__link">Testimonials</a>
-                        </li>
-                        <li class="nav__item">
-                            <a href="#!" class="nav__link">Contact Us</a>
-                        </li>
-                    </ul>
-                    <button class="btm">
-                        Buy Now
-                    </button>
-                </nav>
-            </header>
-            <div class="hero__content">
-                <div class="hero__main">
-                    <div class="hero__headline">
-                        Sweet fun, full of milk.
-                    </div>
-                    <h1 class="title hero__title">
-                        Feel inside cold with our delicious ice-cream.
-                    </h1>
-
-                    <div class="hero__desc">
-                        Some food has looked so awful that it's looked like something that the dog's brought home, yet
-                        after one mouthful I've been left eating my thoughts, my words.
-                    </div>
-
-                </div>
-<img src="content/мороженка.png" alt="" class="hero__img a">
-                <button class="btm"></button>
-            </div>
-        </div>
-    </section>
-
-</div>
-
 <body>
-
+    <div class="wrapper">
+        <section class="hero">
+            <div class="container">
+                <header class="header">
+                    <a href="#!" class="logo">
+                        <img src="content/ikon.png" alt="Логотип" class="logo__img">
+                    </a>
+                    <nav class="nav">
+                        <ul class="nav__list">
+                            <li class="nav__item">
+                                <a href="#!" class="nav__link">HOME</a>
+                            </li>
+                            <li class="nav__item">
+                                <a href="#!" class="nav__link">PAGES</a>
+                            </li>
+                            <li class="nav__item">
+                                <a href="#!" class="nav__link">OUR OFFER</a>
+                            </li>
+                            <li class="nav__item">
+                                <a href="#!" class="nav__link">PRICING</a>
+                            </li>
+                            <li class="nav__item">
+                                <a href="#!" class="nav__link">SHOP</a>
+                            </li>
+                        </ul>
+                    </nav>
+                    <button class="btn">ORDER NOW</button>
+                </header>
+                <div class="content">
+                    <div class="content__desc">
+                        <div class="content__headline">Sweet fun, full of milk.</div>
+                        <h1 class="title content__title">Feel inside cold with our delicious <span
+                                class="title__element">ice-cream.</span>
+                        </h1>
+                        <div class="content__text">
+                            Some food has looked so awful that it's looked like something that the dog's brought home,
+                            yet after one mouthful I've been left eating my thoughts, my words.
+                        </div>
+                        <button class="btn">ORDER NOW</button>
+                    </div>
+                    <div class="content__decor">
+                        <img src="content/мороженка.png" alt="icecream" class="content__img">
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="food">
+            <div class="container">
+                <ul class="icecream__list">
+                    <li class="icecream__item whet">
+                        <div class="whet__img-wrap">
+                            <img src="content/mashina.svg" alt="chicken-paella" class="whet__img">
+                        </div>
+                        <div class="whet__desc">
+                            <div class="whet__title">Free Shipping</div>
+                            <div class="whet__text">Last Chance! Free shipping on all orders ends today.</div>
+                        </div>
+                    </li>
+                    <li class="food__item whet">
+                        <div class="whet__img-wrap">
+                            <img src="content/chai.svg" alt="chicken-paella" class="dish__img">
+                        </div>
+                        <div class="whet__desc">
+                            <div class="when__title">Quick Packaging</div>
+                            <div class="when__text">Last Chance! Free shipping on all orders ends today.</div>
+                        </div>
+                    </li>
+                    <li class="icecream__item whet">
+                        <div class="whet__img-wrap">
+                            <img src="content/cash-back .svg" alt="chicken-paella" class="dish__img">
+                        </div>
+                        <div class="whet__desc">
+                            <div class="whet__title">100% Money Back</div>
+                            <div class="whet__text">Last Chance! Free shipping on all orders ends today.</div>
+                        </div>
+                    </li>
+                    <li class="icecream__item whet">
+                        <div class="whet__img-wrap">
+                            <img src="content/fast-delivery .svg" alt="chicken-paella" class="whet__img">
+                        </div>
+                        <div class="whet__desc">
+                            <div class="whet__title">Fast Delivery</div>
+                            <div class="whet__text">Last Chance! Free shipping on all orders ends today.</div>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </section>
+    </div>
 </body>
 
 </html>
