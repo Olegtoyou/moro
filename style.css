@@ -47,46 +47,90 @@ h6 {
 .container {
     max-width: 1600px;
     margin: 0px auto;
-}
-
-.header {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    margin-top: 6px;
-    padding: 25px 0px;
-}
-
-.logo__img {}
-
-.nav {}
-
-.nav__list {
     display: flex;
 }
 
-.nav__item {}
-
-.nav__link {}
-
-.btm {}
-
-.hero__content {}
-
-.hero__main {}
-
-.hero__headline {}
-
-.title {}
-
-.hero__title {}
-
-.hero__desc {}
-
-.a {
-    height: 597px;
-    width: 597px;
+.ad {
     display: flex;
-    align-items: ;
-    justify-content: ;
+    width: 1600px;
+    height: 678px;
+    background: #F8EDF0;
+}
+
+.ad__img {}
+
+.ad-img {}
+
+.ad__action {}
+
+.ad__title {
+    width: 621px;
+    height: 52px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 44.2px;
+    line-height: 52px;
+    /* identical to box height */
+
+
+    color: #000000;
+}
+
+.ad__text {
+    width: 607px;
+    height: 60px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    letter-spacing: 0.01em;
+
+    color: #0F0101;
+
+    opacity: 0.7;
+}
+
+.ad__list {}
+
+.link__item {
+    display: flex;
+}
+
+.link__img-one {
+    width: 30px;
+    height: 30px;
+
+    background: #FFFFFF;
+    border-radius: 3px;
+}
+
+.link-img {}
+
+.link__text {
+    width: 166px;
+    height: 26px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 26px;
+    /* identical to box height */
+
+
+    color: #000000;
+}
+
+.googleapp {
+    display: flex;
+}
+
+.googleapp__img {}
+
+.googleapp-img1 {
+    width: 200px;
+    height: 77px;
+}
+
+.googleapp-img2 {
+    width: 173px;
+    height: 88px;
 }
